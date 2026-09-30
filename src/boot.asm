@@ -54,7 +54,7 @@ gdt_start:
 	;data segment
 	dw 0xffff
 	dw 0x0000
-	dw 0x00
+	db 0x00
 	db 10010010b ;lu, modifiée, pas excutée (flags)
 	db 11001111b
 	db 0x00
