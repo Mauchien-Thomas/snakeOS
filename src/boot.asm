@@ -18,7 +18,7 @@ start:
 ;charge le kernel
 mov bx, KERNEL_LOAD_SEG
 mov dh, 0x00
-mov dl, 0x80
+mov dl, 0x00
 mov cl, 0x02
 mov ch, 0x00
 mov ah, 0x02
